@@ -16,10 +16,14 @@
 -- english 
 
 1 Install dependencies with npm i.
+
 2 You need to add configuration information in assets/ex_config.js.
+
 token: ``, // token of metaApi
 accountId: '', // accountId of metaApi
 login: '', // login name of trading platform
 serverName: '', // serverName of trading platform.
+
 3.Start with ts-node index.ts.
+
 4.[Optional] Package with npm run build:dev.
