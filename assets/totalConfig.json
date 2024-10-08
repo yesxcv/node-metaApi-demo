@@ -1,0 +1,27 @@
+{
+	"name": "exnessConfig",
+	"index": "0",
+	"tradeConfig": {
+		"symbol": "BTCUSDm",
+		"interval": "15m",
+		"leverNum": 20,
+		"marginTypeVal": "ISOLATED"
+	},
+	"positionConfig": {
+		"appendPercent": 0.15,
+		"minusAppendPercent": 1,
+		"stopLoseWhenAppendedPercent": 0.10
+	},
+	"IndicatorConfig": {
+		"strategyName": "superTrend_1.2",
+		"ST":{
+			"atrLength":10,
+			"factor":3
+		}
+	},
+	"strategyConfig": {
+		"superTrend":{
+			"stopLosePerc":32
+		}
+	}
+}
