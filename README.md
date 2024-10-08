@@ -2,10 +2,11 @@
 1.npm i 安装依赖
 
 2. 你需要在assets/ex_config.js中添加配置信息
-       token: ``, //metaApi的token
+
+       `token: ``, //metaApi的token
       accountId: '', // metaApi的accountId
       login: '',  //交易平台的登录名
-      serverName: '',  //交易平台的serverName
+      serverName: '',  //交易平台的serverName`
 
 3. 使用ts-node index.ts 启动
 
@@ -19,10 +20,12 @@
 
 2 You need to add configuration information in assets/ex_config.js.
 
+`
 token: ``, // token of metaApi
 accountId: '', // accountId of metaApi
 login: '', // login name of trading platform
 serverName: '', // serverName of trading platform.
+`
 
 3.Start with ts-node index.ts.
 
